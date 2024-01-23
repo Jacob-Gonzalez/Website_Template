@@ -1,0 +1,43 @@
+﻿body {
+    display: grid;
+    grid-template-areas: "head head head"
+                         "nav nav nav"
+                         "section section aside";
+    background: linear-gradient(black, white 50%, black);
+}
+h1 {
+    font: bold 24px arial;
+}
+header {
+    grid-area: head;
+    margin: 15px;
+    border: 1px solid #DCDCDC;
+    padding: 25px;
+    background-color: #DCDCDC;
+    text-align: center;
+}
+nav {
+    grid-area: nav;
+    margin: 15px;
+    border: 1px solid #DCDCDC;
+    padding: 20px;
+    background-color: #DCDCDC;
+}
+section {
+    grid-area: section;
+    width: 65vw;
+    height: 80vh;
+    margin: 15px;
+    border: 1px solid #DCDCDC;
+    padding: 15px;
+    background-color: #DCDCDC;
+}
+aside {
+    grid-area: aside;
+    width: 35vw;
+    height: 80vh;
+    margin: 15px;
+    border: 1px solid #DCDCDC;
+    padding: 15px;
+    background-color: #DCDCDC;
+}
